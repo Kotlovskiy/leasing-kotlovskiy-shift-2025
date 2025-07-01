@@ -12,11 +12,15 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
+import com.unewexp.leasingapp.ui.theme.BG_Brand
+import com.unewexp.leasingapp.ui.theme.BG_Primary
+import com.unewexp.leasingapp.ui.theme.Indicator_Medium
+import com.unewexp.leasingapp.ui.theme.Text_Tertiary
 
 @Composable
 fun BottomNavigationBar(navController: NavHostController) {
 
-    NavigationBar(containerColor = Color(0xFF0F9D58)) {
+    NavigationBar(containerColor = BG_Primary) {
 
         val navBackStackEntry by navController.currentBackStackEntryAsState()
 
@@ -37,10 +41,11 @@ fun BottomNavigationBar(navController: NavHostController) {
                 },
                 alwaysShowLabel = true,
                 colors = NavigationBarItemDefaults.colors(
-                    selectedIconColor = Color.White,
-                    unselectedIconColor = Color.White,
-                    selectedTextColor = Color.White,
-                    indicatorColor = Color(0xFF195334)
+                    selectedIconColor = BG_Brand,
+                    selectedTextColor = BG_Brand,
+                    unselectedIconColor = Indicator_Medium,
+                    unselectedTextColor = Text_Tertiary,
+                    indicatorColor = Color.Transparent
                 )
             )
         }
