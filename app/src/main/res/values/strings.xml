@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Leasing App</string>
+    <string name="cars">Автомобили</string>
+    <string name="search">Поиск</string>
+    <string name="dates">Даты аренды</string>
+    <string name="filters">Фильтры</string>
+    <string name="specifications">Характеристики</string>
+    <string name="transmission_box">Коробка передач</string>
+    <string name="automatic">Автоматическая</string>
+    <string name="steering_side">Сторона руля</string>
+    <string name="left">Слева</string>
+    <string name="body_type">Тип кузова</string>
+    <string name="crossover">кроссовер</string>
+    <string name="color">Цвет</string>
+    <string name="black">Чёрный</string>
+    <string name="cost">Стоимость</string>
+    <string name="total">Итого</string>
+    <string name="rent">Аренда</string>
+    <string name="back">Назад</string>
+    <string name="to_book">Забронировать</string>
 </resources>
